@@ -25,6 +25,7 @@ Meeting ID: 965 0648 5736
 Find your local number: https://utsa.zoom.us/u/anjc71kM3
 
 ## Austin Pesina Office Hour Meeting
+Wednesdays 6:00-6:50 PM CST
 
 Join Zoom Meeting
 https://us04web.zoom.us/j/77639411598?pwd=XWVYr9uCoUVH3ApI6Ja5sDM_cSIo48.1

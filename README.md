@@ -24,10 +24,10 @@ Dial by your location
 Meeting ID: 965 0648 5736
 Find your local number: https://utsa.zoom.us/u/anjc71kM3
 
-Join by SIP
-96506485736@zoomcrc.com
+## Austin Pesina Office Hour Meeting
 
-Join by H.323
-162.255.37.11 (US West)
-162.255.36.11 (US East)
-Meeting ID: 965 0648 5736
+Join Zoom Meeting
+https://us04web.zoom.us/j/77639411598?pwd=XWVYr9uCoUVH3ApI6Ja5sDM_cSIo48.1
+
+Meeting ID: 776 3941 1598
+Passcode: SpringR22

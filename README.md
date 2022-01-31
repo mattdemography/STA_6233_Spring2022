@@ -24,6 +24,16 @@ Dial by your location
 Meeting ID: 965 0648 5736
 Find your local number: https://utsa.zoom.us/u/anjc71kM3
 
+## Matthew Angotti Office Hour Meeting
+Wednesdays 12:00-12:50 PM CST
+
+Join Zoom Meeting
+https://us04web.zoom.us/j/79056436576?pwd=oyN39K2OwEc5H4iWlNfzA3V_WKmrWX.1
+
+Meeting ID: 790 5643 6576
+Passcode: STA_6233
+
+
 ## Austin Pesina Office Hour Meeting
 Wednesdays 6:00-6:50 PM CST
 

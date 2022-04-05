@@ -1,0 +1,381 @@
+---
+title: "Feedback for Projects"
+author: "Matthew Angotti and Austin Pesina"
+date: "3/20/2022"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Assignment Feedback
+
+### Project 01 
+#### Web Scraping Yelp Reviews: Understanding why a local restaurant has low ratings
+
+* *Is the title consistent with the topic?*
+Yes and objectives are clearly pointed out.
+* *What are they wanting to study?*
+Yelp reviews
+* *What is the motivation of this project?*
+Helping a local business get better/understand failings
+* *What does the presenter hope to accomplish with this project?*
+Offer advice on improving rating
+
+**What data are used?**
+Yelp customer reviews
+
+**Overall impression?**
+The project was well thought-out and the presenter did a good job identifying where they could have expanded their findings. Even went so far as to point out missteps and where they struggled with their analysis. Additionally, I liked that the student provided multiple sentiment package results and compared them to the findings from her choice-package: sentimentR.
+
+### Project 02
+#### Web Scraping GPU Reviews: A Sentiment & Word Analysis
+
+* *Is the title consistent with the topic?*
+Yes; objectives are clear.
+* *What are they wanting to study?*
+GPU reviews
+* *What is the motivation of this project?*
+Understanding the community feedback on various GPUs
+* *What does the presenter hope to accomplish with this project?*
+Gain more insight as to current review trends on GPUs
+
+**What data are used?**
+Newegg.com GPU reviews
+
+**Overall impression?**
+The project was interesting, but could gain from some refinement. Student spent a few minute at the beginning of the presentation giving background on the rise of GPU in the mainstream, which was nice, but did not provide any visuals/screengrabs/etc to coincide with this, so it was just staring at a title slide. Additionally, the student read an entire review which took well over a minute of time. The review was on-screen so a verbatim was not necessary in my opinion. Additionally, student conducted his word cloud/analysis without cleaning unnecessary words. As a result, the most dominant words were "the" and "and", hardly insightful. The "Overall Sentiment Review" was a nice touch.
+
+### Project 03
+#### Fantasy Hockey Dataset
+
+* *Is the title consistent with the topic?*
+Somewhat
+* *What are they wanting to study?*
+Stats from hockey games
+* *What is the motivation of this project?*
+Sports fan, likes fantasy sports
+* *What does the presenter hope to accomplish with this project?*
+Use it as a predictor for future fantasy drafts/ performance forecasting
+
+**What data are used?**
+hockey reference website
+
+**Overall impression?**
+Presentation was short (sub-6 minutes) and student spent 1/3 the time explaining shortcomings/difficulties of the original idea instead of expanding into the new idea and simply rehashing the project idea. The project itself never comes into scope - the student goes from the original idea failing to the new website being used, followed by his problems with the new data munging/cleaning and then goes into his conclusion. No time is actually spent going through the data and explaining any analysis that was done, simply the ideas/possibilities of what could be done.
+
+### Project 04
+#### Entrepreneurship Research Productivity Ranking
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Determine which universities have the best research productivity
+* *What is the motivation of this project?*
+A prior research publication being revisited/updated by TCU
+* *What does the presenter hope to accomplish with this project?*
+Update the rankings with new findings and rankings from various journals
+
+**What data are used?**
+Various Entrepreneurship journals
+
+**Overall impression?**
+The work is summed up nicely, and the student shows how scraping has changed the approach to gathering the data used for this ranking. There wasn't a need for any analysis to be done which utilized graphics, so this was a simpler easy-to-digest effort and was explained well. Presentation was paced nicely and came in just under 10 minutes.
+
+### Project 05
+#### Who Would Win in a Fight? (UFC Matches)
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Predictors for fight winners
+* *What is the motivation of this project?*
+Trying to improve odds/performance in determining who would win a fight
+* *What does the presenter hope to accomplish with this project?*
+Attempting to better predict who would win a UFC match
+
+**What data are used?**
+UFC Stats website
+
+**Overall impression?**
+Student got right into the data after giving a quick summary of his motivation/project. He also detailed some of the troubles he encountered during cleaning. I liked the inclusion of pieces of data he found interesting as he is a fan of the sport and used his knowledge of the weight classes to help aggregate his data into groups. The approach of using generally held theories as his null hypothesis to try and prove/disprove was done well - he compared fighting stances, reach and height. All in all, a well-thought and well-presented scraping and analysis.
+
+### Project 06
+#### IMDb - What determines Top 50 Action-Movie's Success
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Factors that determine the success of action movies (Top 50)
+* *What is the motivation of this project?*
+Action movie fan -- curious what factors drive success
+* *What does the presenter hope to accomplish with this project?*
+Better understanding of those factors
+
+**What data are used?**
+IMDB.com
+
+**Overall impression?**
+I like the approach taken for this presentation. We actually see some code being ran in real-time so we know it is working and it does not take a long time to see the results of the coding. He also goes through several categories comparing votes to rank and similarly looks at earnings and metascore. (I feel like a different method could have been used, like a scatterplot, as he makes statements saying it is correlated, but no coefficients are presented and it is difficult to determine visually based on the color scheme alone). The presentation itself is very straightforward and concise, though I don't know how much the slide deck contributes to anything not shown already in the live demo. Overall a solid effort.
+
+### Project 07
+#### Where is the best place to eat in Austin, Texas
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Restaurants in the Austin area; cuisines
+* *What is the motivation of this project?*
+Foodie - wants to find new places to try
+* *What does the presenter hope to accomplish with this project?*
+Find places she hadn't thought to try before
+
+**What data are used?**
+Yelp reviews
+
+**Overall impression?**
+Well done. Loved the usage of different plots (histograms and box plots split within categories). The student was able to find some new ideas for places to consider based on budget and appetite. Break down of analytic approach and assumptions was nice and thoughtful. Difficulties were well-documented and given thought as well. Overall a very nice project.
+
+### Project 08
+#### Effect of Critic and User Scores on Video Game Sales
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Do reviews actually influence game sales
+* *What is the motivation of this project?*
+Prior work as a game artist; interested in business-side of the industry
+* *What does the presenter hope to accomplish with this project?*
+Gain insight on factors that drive video game sales
+
+**What data are used?**
+Metacritic reviews (critics and users) and VGChartz; excel sheet with data scrape
+
+**Overall impression?**
+Interesting approach on this one. Student was not able to successfully scrape either site, but found a scrape from another source that was rolled up into a excel sheet, so student scraped the sheet to get his data. He admitted this data was out-of-date, but happened prior to metacritic updating their website design (presumably this was to make scraping much more difficult). Student includes figuring out the scraping for metacritic within their new design and wants to expand it further. Decent effort considering the struggles encountered.
+
+### Project 09
+#### What Makes a Classic? (Literature)
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+To see if the components of "classic" literature can be quantified
+* *What is the motivation of this project?*
+Unknown, not stated
+* *What does the presenter hope to accomplish with this project?*
+Identify variables that go into classic works
+
+**What data are used?**
+Gutenberg online works
+
+**Overall impression?**
+Lots of mouse cursor movement during the presentation was the first thing which stood out to me. It was distracting. The final takeaway was lackluster -- student essentially said a "classic" is probably "talking about 'time'... and all this stuff". It felt like the work did not follow through with the question being asked. I thought this might be interesting, but did not feel the student did anywhere near what could have been done. 
+
+### Project 10
+#### Do IMDb and Metacritic Rate Popular Movies Differently?
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Movie reviews between two major ratings sites
+* *What is the motivation of this project?*
+Interest in movies and ratings usage
+* *What does the presenter hope to accomplish with this project?*
+Determine if these two review sites have similar or differing reviews
+
+**What data are used?**
+IMDB and Metacritic
+
+**Overall impression?**
+This project was well-thought out and came from a very different type. The student did a good job pivoting when encountering some severe difficulty in the original idea. Great notes in the r code. The presentation felt very technical and seemed to get away from its original purpose at the end: the student started running random statistical tests (ANOVA and one-tailed tests) on different decades but only looking at the IMDB ratings. I feel like this was done as exploratory work, but got away from the original intent and I would've been content with the original question being answered and cutting off the presentation at ~10 minutes. Kudos for going that extra length, though.
+
+
+### Project 11
+#### The influence of capital structure on enterprise performance
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Looking at financial indicators and their influence on enterprise performance
+* *What is the motivation of this project?*
+Unknown
+* *What does the presenter hope to accomplish with this project?*
+Unknown
+
+**What data are used?**
+Wharton Research
+
+**Overall impression?**
+Very low volume, hard to hear the student, even on max speaker output. Student has access to Wharton research documents, so goes through some code very deliberately without revealing secure info (good job). This is a very direct presentation. Informative but the student goes quickly from one thing to the next; blink and you miss some content.  I like the use of a multi-regression, but the talk got very technical here and would lose a non-technical audience. 
+
+
+### Project 12
+#### Discovering Food Trends using Food Network Recipes
+
+*Note: recording does not work on UTSA, another link is available in the Google drive link*
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Food trends
+* *What is the motivation of this project?*
+Health junky - fitness, exercise, nutrition
+* *What does the presenter hope to accomplish with this project?*
+Is there a relationship between food trends and Food Network online recipes?
+
+**What data are used?**
+Food Network, Google Trends
+
+**Overall impression?**
+Student brought data into Python to save time on data prep, then reintroduced R for analysis. Student found some interesting results, was able to identify several unique events which occurred on the website (data dumps) that were causing some skew in his findings. Presentation ran long (~19 minutes) but was informative and handled well.  Solid effort.
+
+
+### Project 13
+#### Social Media Influence on COVID vaccination drive
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Vacination rates being influenced by social media
+* *What is the motivation of this project?*
+Number of people vaxxed in US
+* *What does the presenter hope to accomplish with this project?*
+Wants to see if social media has been able to increase vaccine rates
+
+**What data are used?**
+Twitter data
+
+**Overall impression?**
+Sound idea, it is a commonly held position that social media can influence mindsets. .Analysis was ver limited, however, as the student only used California (it has the highest vaccine rate) and looked at the sentiment of tweets from health officials in that state. The overall sentiment was positive so the student makes a statement that this is the cause for such a high vaccination rate in the state. Other factors could be at play in this scenario, however, so further exploration would need to be done to confirm this hypothesis. Great effort utilizing the Twitter API and pulling in tweets and cleaning them. 
+
+### Project 14
+#### Golf is Hard: Comparing Ranked and Unranked courses in America
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Do highest ranking courses = toughest golf courses
+* *What is the motivation of this project?*
+Idea of lack of equity in golf; viewed as difficult
+* *What does the presenter hope to accomplish with this project?*
+Confirmation of difficulty level being the same as a "top" course
+
+**What data are used?**
+USGA database
+
+**Overall impression?**
+Well put together presentation. Student clearly thought through his question and motivation and sought to answer his question in the presentation. The visuals presented did well to compliment the arguments and I did not feel at any time that there was wasted time spent going through information. Well done.
+
+
+### Project 15
+#### Analysis on the Ratings of Movies
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+If ratings have grown more harsh over time
+* *What is the motivation of this project?*
+Movie fan; curiosity
+* *What does the presenter hope to accomplish with this project?*
+Gain better understanding on how we view movies/expectations/etc
+
+**What data are used?**
+IMDB Oscars data
+
+**Overall impression?**
+This was a fun analysis, looking at movies overall and trying to find some guidance on how ratings have changed over time. I think one of the most interesting pieces wasnt fully related to the topic, but was the box plots of the various genres by length of the film. It was very interesting to see how the different genres had their own niche for runtimes. The student's analysis found no difference was evident across genres of film for ratings, and that they stayed relatively constant over time. Interesting topic, decent effort on this one.
+
+### Project 16
+#### IMDb Movie Ratings Over The Years
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+Differences in run times for popular movies over time
+* *What is the motivation of this project?*
+Personal feeling that more popular movies are getting longer
+* *What does the presenter hope to accomplish with this project?*
+Confirmation of this belief
+
+**What data are used?**
+IMDB
+
+**Overall impression?**
+Liked that the student took 2020/2021 pandemic issues into account for movie releases. Few students did this when dealing with the film industry topics.Student found that run times have increased from ~112 minutes to ~125 minutes over time. This was another interesting project, and was done well.
+
+### Project 17
+#### How have TV-Shows evolved in recent years?
+
+* *Is the title consistent with the topic?*
+Yes
+* *What are they wanting to study?*
+TV shows and their change over time
+* *What is the motivation of this project?*
+Doing something different from film studies
+* *What does the presenter hope to accomplish with this project?*
+To look at the evolution of tv shows in recent years
+
+**What data are used?**
+IMDB tv show data
+
+**Overall impression?**
+The concept was well-executed and a nice departure from the other topics. Student looked at not only the aggregates of how many shows were released over the years, but also genres and ratings of the shows. Some of the visuals were redundant but shown in a different way (histogram on one view then a boxplot in another); it would have been nice for the student to determine which tells their story more effectively and just gone with one view. I liked the inclusion of the "key findings" slide. Overall well done.
+
+### Project 17
+Overall, it was a good project. I’m curious as to why you used 2020 as a stopping point. It would have been interesting to see how shows rebounded in 2021 or early 2022 and if they were rated highly enough to crack top spots on IMDB.
+
+### Project 18
+Although you hit all of the requirements for the project, it felt a bit simple. I’m also a bit confused as to why you wrote to csv and then brought the csv back in as a variable. I do like that you incorporated a word cloud as your choice of visualization, but it doesn’t really help the project since most of the words in your data frame only have a frequency of 1.
+
+### Project 19
+Great job with the presentation. My only critique is with your ggplot visualizations. Your lines are very aliased, but if you use ggsave with type = “cairo”, you end up with much cleaner lines.
+
+### Project 20
+Really great job with your project. The one thing I would say to watch out for is be careful when overwriting a variable name. For example, you had:
+            genre <- str_replace_all(…..)
+            genre <- trimws(genre)
+            genre <- trimws(gsub(….))
+There’s nothing inherently wrong with this, but it could lead to headaches if you mess something up and have to go back and troubleshoot where you made a mistake. Great job with your statistical analysis as well.
+
+### Project 21
+Overall you did a great job with your analysis. When looking at your code, I see a lot of repetition. You can clean up your code by defining your own functions. You also tend to call your variable after you define it. I’m assuming this is so you can see your output; this can be done in the console and doesn’t need to be written into the script.
+
+### Project 22
+Great job with the project! I wasn’t able to download your code, but from what I could see in your video it looks like you did a really good job. My only comment would be that I noticed you define a variable and then call it on the next line; I assume you’re doing this to see the results of what you defined, but you should do that in your console to keep your script as clean as possible.
+
+### Project 23
+Very cool project! I’m a bit disappointed that you were only able to scrape 100 tweets from 5 users, but I get that things happen. Welcome to the real world!
+
+### Project 24
+Good job on your project. I’m curious if reach played a factor in the outcomes as well. The last slide in your presentation shows your 3 variables + reach, but the site you scraped didn’t include reach. Maybe in a future analysis you can scrape an additional site to add more variables to your analysis.
+
+### Project 25
+Great job overcoming the difficulties you had with the text spacing. Your visuals were good, but for a presentation, you may not have an audience familiar with snake_case so your labels would look odd to them. For presentation quality visuals, make sure your labels are in Title Case (capitalize the first letter and leave words like “I”, “or”, “to”, etc. lowercase).
+
+### Project 26
+Great job with this being your first R project. I’m curious as to why you saved your table as a .csv file. One other thing I noticed is that in your author list, some books had multiple authors and you didn’t mention how that affected your project. It also looked like you only did a word cloud for one book. For next steps, I would suggest adding multiple books/authors to your cloud and seeing how your results change.
+
+### Project 27
+You completed the tasks that were assigned. I would like to have seen this taken a step further than just what the top 50 movies were. When you use summary( ) in your code, I see each line starts with \n but I don’t see any lines that remove that, so I’m curious as to how you fixed this. Overall, you did a good job.
+
+### Project 28
+Great job double checking the results Selector Gadget brought in vs what you were seeing on your screen. I also really liked the fact that you actually looked into your outliers. Yes they were on the more expensive side, but as you noted, the quality and detail of the earrings required a price that would be considered an outlier.
+
+### Project 29
+Good job pushing through the issue of not being able to fully automate your code. As you just saw, things happen in the real world that cause issues and our job as data scientists is to solve these issues. For a next step with this project, I would love to see more how ratings vary by genre and if there’s another site you could use to pull information by year.
+
+### Project 30
+(This is the project that seemed to barely use R) I didn’t see any of your R code in the project. I saw your QQ-Plot was done in R as well as some of your analysis, but I also see you used SPSS and Excel to showcase some of your work. In R, you can do your interactions by doing lm(y ~ x_1 + x_2 + x_1*x_2) and you can also create an interaction plot using interaction.plot( ) in base R (no need for external packages).
+
+### Project 31
+Very good job with this! I love the fact that you incorporated a progress list and I could see the companies as the script ran. I did see an error for Best Buy so I’m curious if you went back and looked into these companies that errored out. I see a trycatch( ) in your second loop but not in your first one. For a next step with this project, I would love to see something like a classification model to determine whether you should hold or sell a given stock based on the opinions.
+
+### Project 32
+In the real world, we’re not always able to use the original sources we wanted to use. Good job pivoting to another source that let you continue the project you wanted to do. I would advise that when using visualizations in a presentation, make sure you have appropriate titles and labels. For example, on your bar graph, if I wasn’t looking at your code, I would have no idea what this represented. It needs a title and better naming conventions on your axes. This can be done by adding + labs( ) in your ggplot call.
+
+### Project 33
+Very cool project. I would like to have seen more snippets from your code to see your process in this analysis. Without that it’s hard to give feedback on your scrape. I’m also interested in the follow up idea you mentioned of incorporating other sources.
+
+### Project 34
+Great job with your project! I love that you used ggsave( ) to deal with the aliasing ggplot produces. Your visuals are all labeled properly, the only suggestion I would make is to use Title Case (first letter of every word) capitalization for your axes. Other than that, I consider this a very successful project.
+

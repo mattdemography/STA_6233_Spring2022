@@ -1,0 +1,131 @@
+---
+title: "Feedback for Projects"
+author: "Matthew Angotti and Austin Pesina"
+date: "5/12/2022"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Assignment Feedback
+
+### Project 1.	
+Very nice project. It’s easy to tell that your story was showing how unemployment spiked due to the pandemic and seeing how it recovered as time moves on. A couple of notes: I would have made your vertical line a different color besides black to draw more attention to it. Just looking at your graph, I have no idea how your y-axis is being measured. I would have labeled it something like “Unemployment (%)” and/or added the percent sign and decimals to the axis. Some of this is nitpicky but it’s little details that make a difference between a good presentation and a great one.
+
+### Project 2.
+Classic Marvel vs. DC. Interesting subject (but you didn’t give a winner!!). The presentation is easy to follow but is a bit sloppy at some points. On your “Main” tab, you have ‘empiracle’ instead of ‘empirical’ and on your bottom left graph, the x-axis is labeled ‘Tomator Review’. Your IMDB Score vs Year table is a bit misleading as well because it shows a total number of votes when the title makes it sound like we would be seeing how it was rated. For your adjustable scatter plot, the only other thing I would have liked to see would be a filter so I could choose to look at either entity separate or together. Overall, I can tell you put a lot of effort into your project, just be mindful of the details, especially if you were presenting this to your boss.
+
+### Project 3.	
+The content of the report was good. I would have liked to see different types of graphs throughout. You could have done something like a bar graph for concussions with preseason and regular being separate bars and having stacked bars for total or a line graph for the comparison of injury types, just to change things up and keep it interesting for the reader. One minor detail is your x-axis label is lowercase while your y-axis is in title case. For consistency, you should follow the same case. On that note, I like how your color scheme was consistent throughout. It made it easy to follow logically going from one graph to the next. Overall, you did a great job.
+
+### Project 4.	
+My first impression is I have no idea what this app is. I see a document uploader and that’s it. It wasn’t until looking at your readme that I understood what you were doing. Once I understood what your app was supposed to do, I liked it. For reference, I went to genius.com and copied the lyrics from one of the top songs into a text file and your app worked exactly as described. If you were presenting this, your app would need to stand on its own. You could include a “How-To” tab to explain what your app is and how it works.
+
+### Project 5.	
+Very clean project. It was easy to follow along and see what you were trying to convey. On your accuracy graphs, I would suggest changing from decimal notation to a percentage. It makes more sense to your audience that way. On your data tab, be sure to clean up your column names. I have no idea what “Tab” means and it’s not one of the metrics I can select. It would be more appropriate to label it something like “Fight Attribute” instead. While it’s appropriate to use snake_case when we code, for presentation purposes, I would recommend renaming your column to have a space between words. Capitalize “years” for consistency’s sake as well. Overall, great job on your project.
+
+### Project 6.	
+Very nice project. I like the breakdown between Summer and Winter Olympics as well as the details of where the event was held and how many countries/teams participated. A couple of minor notes: on your y-axis, either capitalize “number” for consistency in your label or just name it “Total Medals Won”. It would have also been nice to see an aggregation of which country has been most successful for each season. Overall, you did a great job on this.
+
+### Project 7.	
+Very nice effort on your app. On the “According to Cuisine” tab, your “Rating” variable is very good. The only issue is that when you hover over one of the boxplots, the labels that pop up are meaningless. They only show a 0-5 depending on its vertical position on the graph. It looks like it has no other meaning than that. For the “Review” variable, it has the same label issue when you hover over it. I’m also unsure what “Review” means. Is it a rating, a count, a ranking, etc.? For the “According to Budget” tab, these graphs were a little harder to understand. The “Review” variable has the same issue as the previous tab. For the “Rating” variable, I don’t follow how the pricing, cuisine type, and review correlate. No matter what variable is selected, the x-axis is labeled as “Review”. Be sure to keep an eye out for details like this if you were presenting this.
+
+### Project 8.	
+It looks like you never loaded your data. Most of the other projects have something along the lines of
+load(url(http://github.com/user_profile/link_to_data))
+	that loads their data into the app.
+### Project 10.	
+Great job with your project. A couple of quick notes: I think it would have presented a little nicer if your images were centered. This can be done in your chunk by doing:
+```{r fig.align = “center”}
+![](Lifetime_Earnings_By_Education.jpg){width=650}
+```
+On your second graph, your variables are in snake_case. For presentation purposes, I would change the underscores to spaces
+
+### Project 11.	
+Good job on your project. Your visualizations tell the story you were trying to tell, and the interactivity works. For presentation purposes, make sure your years are showing as years and not numbers with a comma as a separator. It would have also been nice to change the minimum and maximum year instead of only the maximum year.
+
+### Project 12.	
+Great project. I love the interactivity with your slider as well as having the data pop up in your Leaflet map. My only feedback is for presentation purposes, you should change your variables to have spaces instead of underscores and have the casing match what you have on your map.
+
+### Project 13.	
+While the scope of your project was only related to COVID data, I love the fact that you set your app to work with any hashtag. The only thing I would watch out for is you have a couple of typos in your text. That would be something you would want polished up before presenting your app.
+
+### Project 14.
+Your app provides a lot of information, which is both good and bad. Your data table should have been a separate tab to give your homepage a bit more breathing room. For presenting your findings, your audience facing variables should be in a “Regular Text” format. One of the things I love most about your project is how you incorporated filtering into your graph. This has been the first one to filter by clicking on the variable. Great job.
+
+### Project 15.	
+Very nice report. Your very first chart has some weird compression issues making it hard to read. It looks fine viewing the image by itself in a separate tab but in your report, it’s hard to make out the information. Your graph for “Total Money Raised vs. Valuation” didn’t get the axis labels renamed. Some of the labels on your final couple of graphs are hard to read because of the length. For something like that, I would consider using abbreviations and maybe having an appendix at the end where you give explanations on what your abbreviations mean. It will help with readability and reduce the width of your page (helpful if this was report you were printing out and physically handing to your boss).
+
+### Project 16.	
+Your app is clean and very easy to follow. The graph can get a little difficult to read depending on which variables are chose, so using plotly instead of ggplot might help with that in the future. Fore presentation purposes, consider renaming your final variables so they look like “Regular Text” rather than using something like camelCase or snake_case as this helps with readability for your audience.
+
+### Project 17.	
+I really like the way you presented your data and visualizations. It would have been nice if you gave a high-level overview of what Elo is. Looking at your chart it seems like the higher a fighter’s Elo, the higher their rank, but I have no idea how to translate that to the sliding scale for example.
+
+### Project 18 
+#### Social Media Acronyms
+My Takeaways: I was not sure what I was looking at with this to be honest. It was a shiny app which displayed frequencies of words, sure, but as a viewer I was given no context as to what constitutes an acronym in your project. Including a block of text giving a brief explanation of what the viewer is looking at is always helpful, and you should explain what your app does. Providing buttons gives a level of interactivity, which is a plus, but not providing a main list of words, or a most popular acronym list, or anything leaves it lacking content and context. Decent job building out the app and getting it started, but I feel like it could have been more than what was presented.
+
+### Project 19 
+#### ATP Tennis Stats
+My Takeaways: You had me laughing when I started reading your introduction to the app. Do not beat yourself up. The app is not “bad” by any stretch. At worst it is a learning experience for shiny implementation. You help in overcoming any confusion by spelling out exactly how to use the app and the result is not bad at all. Some points to improve would be to implement a drop-down feature which already has the player names given, and to include a more truncated date range for the player chosen. Other than that, the data is easy to read, the option to customize your output is a great idea and it all comes together nicely in the final tab. I felt like I, as the viewer, was building out a view instead of simply navigating something pre-built. Respectable job.
+
+### Project 20 
+#### Tourism Project: Philippines
+My Takeaways: This is a neat concept and implementation. You took this from just a project to being something personal for you and your family to truly utilize. Excellent work! I hope you all figure out what to do and that you can find time to expand the effort to better suit your plans.
+
+### Project 21 
+#### Elementary Schools Near Nuclear Reactors
+My Takeaways: This is interesting. I did not know that NY had these reactors so close to public areas. It would be interesting to see if there are any health-related issues to having reactors so close. I love the map and the color scheme is easy to see even from being zoomed out. Excellent job showing this. It would be interesting to see it for more states!
+
+### Project 22 
+#### IPL Cricket
+My Takeaways: Wow. Just… wow. Your love for the sport is conveyed perfectly. This is hands-down one of the best presentations on the shiny platform. Your use of color scheme is clean and easy on the eyes visually, your format is clear and easy to navigate. I have no clue about cricket in general, but I feel like I could gain a cursory knowledge of the leaders in the IPL from your work here. It is very complete, and you even include links for additional videos and information. You do not waste any space on fluff – it is simply what is needed to convey detail and stats for players within the IPL. Extremely well done.
+
+### Project 23 
+#### Demographics by County
+My Takeaways: My first thought is that you can remove warnings for each code chunk by simply adding warnings=FALSE to your chunk setup. That will remove a lot of the noise in your markdown. Additionally, you will want to include some data source info so a viewer will know this comes from a “source-of-record” and not just numbers you created. This is limited in scope but has the potential to be a lot more. Some questions that come to my mind: Why did you choose these 5 counties? Do you have the % makeup of the county to give what ratio is Hispanic? Was this just a curiosity of population of Hispanics in specific Texas counties or was there some underlying reason for the visual? Decent work, but room to make this into something more.
+
+### Project 24 
+#### Human-Caused Wildfire
+My Takeaways: I liked that you made this report on RPubs. Having the write-up, going through your thought process, and providing your own thoughts/opinions makes it a nice report on your findings. I am curious how your weather variables would have been correlated if they had been more granular and not averages (since fires occur as singular events). You also mention this, so it would be interesting, if possible, to look at. Great effort on this one.
+
+### Project 25 
+#### Effect of Hyperparameters on Fit
+My Takeaways: I like the inclusion of instructions to give some guidance on how best to use your app. You also acknowledge that there could be some confusion on the sliders so provide clarity on those as well. I think as an added piece of info, you could explain the goodness of fit for each model and some basic information on them. Good work.
+
+### Project 26 
+#### Word Frequency in Sci-Fi, Romance, and Mystery
+My Takeaways: Simple and to-the-point. It shows what the words being used most in the data are showing for each genre, which is neat to see, but does feel a little limited in design. It has some decent bones to get even more insights from these genres of storytelling. Keep working at it, good start!
+
+### Project 27 
+#### Arizona Median Income by County
+My Takeaways: My first look at this page I did a double-take. It looks so professional and clean. Awesome presentation on that. You kept it short, sweet and to the point. You mention clicking on the various zip codes but really all you need is a hover (clicks do not hold the location). Personally, I would have loved to have been able to click on the county and seen a pop up or info spread of income or comparison to the other counties numerically to bolster the graphical comparison you have, like a quartile spread or something relating to total population and unemployment in each region (you might find some insights on the Tribal Counties you mentioned), but that is just asking for extras. You have a solid data visualization here and I really do like it. Splendid work.
+
+### Project 28 
+#### DQ Cone Weight
+My Takeaways: Hilarious! I love that you went for it, and you were able to get a surprising amount of data in that window. I like the simple, clean structure and that you added a comparison of morning v night shifts for the cones. I was surprised that more cones were served up for the morning shift, as I figured more people would get them after dinner. Guess not! I also love the added “How Lucky Are You?” piece, which, if I am reading it right, is the average weight (in ounces) of each cone size and what they are supposed to be. If that is correct, then to get the most bang for your buck, get a small cone and you will get more on average than the medium or large. Pro Life Tip right there! Clever work, love it.
+
+### Project 29 
+#### Book Size
+My Takeaways: Love the effort on this one. Some quick feedback would be to avoid the legend on graph 1 - it is just redundant. Graph 4 also sees one of your boxplots leave the view. The color scheme, while offering some flavor to the overall look can be misleading as you reuse colors for your book club chart that also exist within your genre charts. Viewers will mentally associate colors given on charts, so it can cause some cohesion issues in your results. I agree that your sample size was causing some issues, your Standard Deviations on some of the genres were crazy (one was over 230, that is a lot of deviation from the mean). Overall, I love the effort and you have the makings of something fun here, but you did not answer your own question. You asked yourself if the number of pages discourages readership and your answer in the conclusion was that your data was industry-standard. To me, a simple yet clear finding was that your hands-down two most popular genres were Fiction and Sci-Fi, which have 360 and 370 average pages per book, respectively. Those genres garnered 3-4x more readership than the next most-popular genre: Historical. Based on this data alone, the answer to your question is unclear - and that is a fine answer to end up with! - but there are some big takeaways in your graphs that are glossed over. Dig more; find out if anything drives this love for Fiction and Sci-Fi: is it a bias from the source site? A specific book series being touted by someone or maybe New York Times Bestsellers? Maybe limit your windows of readership if possible. There is a lot that can be done to refine this research even further, and you are right on the cusp of it. Excellent job!
+
+### Project 30 
+#### NFL Regression Clustering
+My Takeaways: I was excited to see this one if I am being honest. You delivered on the visual outputs, I love the graphs updating on-the-fly and how you can customize the outputs you want. The problem is I have no clue who I am looking at. The dots mean nothing to me if I cannot associate them to any one individual QB. Love the idea, but the implementation feels short without callouts on a mouse-hover or anything to define what blue, green, and red mean on the top chart. Great concept and design, poor implementation but easily remedied! Keep at it!
+
+### Project 31 
+#### Stock Suggestions
+My Takeaways: My first takeaway is I am impressed you gathered this much stock pricing data from these companies within the short window of time you were given - kudos to that! I do feel the title/purpose of the project is lost within the output. The suggestions for stocks are visible upon hovering over the points (Maintained Buy, Sell, etc.) but do not really ring clearly in the overall presentation. I love that you gave control over the color choices of the graph, as it allows the viewer some customization - always a nice touch - but color is something which can be beneficial in a finance display. Sell Ratings could be made red, Buy Ratings green, etc. It is good to weigh the pros and cons of keeping color something you have locked in vs giving that visual tool to the viewer. I understand why you wanted to have a tab for each company along with discrete selections in the drop down but for me it did not really feel cohesive. There were only potentially 5 companies providing analyst ratings over each window of time and the price point for the stock is the same no matter who is buying it for each date in question. It would not have been too busy to have a plot with a line for each company for a given stock choice on the drop-down, especially since companies do not give ratings on every stock. Overall, you have the beginnings of a very neat interaction app for stocks, but it is rough in its current state. Keep working on it and it will be great, I am sure!
+
+### Project 32 
+#### Analysis of the Lakers 2021-2022 Season
+My Takeaways: I really like the approach to this analysis. As a fellow basketball fan (love my Spurs and those games between the LAL and SAS in the 90s and 00s were classics) I appreciate how difficult it is to draw conclusions on what makes or breaks a team. What I found interesting was the Defensive Rating for the Lakers in the most recent campaign – their offensive rating stayed consistent so was this a strength of schedule related-event? It would be interesting to have the average rating for their schedule as a comparison in this spot, because it warrants a deeper dig! Regarding the formatting of the visuals, it is always good practice to confirm the names of your axis labels and swap out underscores for spaces. Great overall effort and I agree, Russ was a bad pickup for the Lakers.
+
+### Project 33 
+#### 311 Calls in San Antonio
+My Takeaways: Love the format of your markdown on this. One thing that stood out to me was the inclusion of your warning messages in each output segment. That can be easily addressed by including warnings=False in your setup for each code chunk where you do not need the warning to be displayed. I like the idea of providing this as a solution-starting idea for the city council, though I would suggest including types of calls into the mix as well (if they provide that). Some additional guidance would be a nice plus to this, as the viewer may not know what defines a “late” call response, or even what constitutes a call to 311. Additionally, it would be interesting to find out if 311 has a built-in threshold for response times, allowing ~10% of calls to be late or something like that. Often these will be added into their metrics to allow for natural delays in processing/resolution and would enhance your findings even further. Good job.
+
+### Project 34 
+#### Global Life Expectancy
+My takeaways:  Clean data visuals, easy to navigate. The tabs were thought out nicely as well – I appreciate the data tab being included. As an aside, I think box-and-whisker plots would have been more explanatory than the view chosen for the “Country Life Expectancy in Age” tab, as they show your quartiles for each group. It would have taken the existing visual and given it an added bump to show how your distributions within each year were spread. It was remarkably interesting to go through and see how life expectancy has evolved in the 15-year span your view afforded. Some countries had some big jumps! Clever work.
